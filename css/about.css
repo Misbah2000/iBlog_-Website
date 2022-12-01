@@ -1,0 +1,35 @@
+.about{
+    height: 150vh;
+    padding: 8px;
+    position: relative;
+}
+
+.about::after{
+    content: "";
+    background: url(../img/home.jpg) no-repeat center center/cover;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: inherit;
+    opacity: 0.15;
+    border-radius: 15px;
+    z-index: -1;
+}
+
+.about h2{
+    text-align: center;
+    padding: 15px 22px;
+}
+
+.author-info{
+    padding-left: 18px;
+}
+
+.about p{
+    padding-left: 18px;
+}
+
+.post-img img{
+    width: 100%;
+    padding-left: 14px
+}

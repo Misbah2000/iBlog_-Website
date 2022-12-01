@@ -1,0 +1,57 @@
+@media screen and (max-width: 940px) {
+    .navigation{
+        flex-direction: column;
+        margin-bottom: 32px;
+    }
+    .n-left{
+        flex-direction: column;
+        text-align: center;
+    }
+    .content-right{
+        display: none;
+    }
+    .home-artle{
+        flex-direction: column;
+    }
+    .home-artle-img{
+        text-align: center;
+    }
+    .year-box{
+        top: 43px;
+        font-size: 9px;
+        display: flex;
+    }
+    .year-box div{
+        padding: 0 5px;
+        margin: 0;
+    }
+    .home-artle img{
+        width: 65vw;
+    }
+    .form-input{
+        width: 50%;
+    }
+    .form-box input, textarea{
+        width: 70vw;
+    }
+    .row{
+        flex-direction: column;
+    }
+    .post-img {
+        height: auto;
+    }
+    .social{
+        padding: 0;
+    }
+    .about{
+        height:auto;
+    }
+    .adjust-year{
+        position: static;
+        height: auto;
+        padding: 9px 0px;
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+    }
+}
